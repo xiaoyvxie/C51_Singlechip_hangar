@@ -225,10 +225,7 @@ unsigned char Digital_array[8] ={0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10}; // æ•
 //     static unsigned char Digital_flushed_number = 0;
 // 	Digital_pins = 0x00;
 //     Digital_reveal(7 - Digital_flushed_number, Digital_array[Digital_flushed_number]);
-//     Digital_flushed_number++;
-//     if (Digital_flushed_number > 7) {
-//         Digital_flushed_number = 0;
-//     }
+//     if(Digital_flushed_number++ > 6) Digital_flushed_number = 0;
 // }
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------------
